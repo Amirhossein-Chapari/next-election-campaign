@@ -1,9 +1,9 @@
 import Image from "next/image";
-import photo1 from '../../public/photo12.jpg';
-import photo2 from '../../public/photo13.jpg';
-import photo3 from '../../public/photo.jpg';
-import photo4 from '../../public/photo15.jpg';
-import photo5 from '../../public/photo14.jpg';
+import photo1 from "../../public/photo12.jpg";
+import photo2 from "../../public/photo13.jpg";
+import photo3 from "../../public/photo.jpg";
+import photo4 from "../../public/photo15.jpg";
+import photo5 from "../../public/photo14.jpg";
 import Link from "next/link";
 import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
@@ -49,7 +49,6 @@ const rtlGifAnimation = keyframes`
 `;
 
 function Projects() {
-
   return (
     <section className="container" id="goals">
       <Fade>
@@ -61,8 +60,12 @@ function Projects() {
           <div className="disc-of-box">
             <Reveal keyframes={bottomToTopAnimation}>
               <p className="title">باید به توسعه روستاها توجه ویژه ای شود.</p>
-              <span>روستاها نقش مهمی در تولید و امنیت غذایی کشور دارند"، تاکید کرد: "باید توجه ویژه‌ای به رفع مشکلات روستاها و توسعه آنها شود. من به عنوان نماینده شما در مجلس آینده اگر انتخاب شوم، وظیفه دارم که صدای شما را به گوش مسئولان برسانم و برای حل مشکلات شما تلاش کنم.
-                
+              <span>
+                &quot;روستاها نقش مهمی در تولید و امنیت غذایی کشور دارند&quot;،
+                تاکید کرد: &quot;باید توجه ویژه‌ای به رفع مشکلات روستاها و توسعه
+                آنها شود. من به عنوان نماینده شما در مجلس آینده اگر انتخاب شوم،
+                وظیفه دارم که صدای شما را به گوش مسئولان برسانم و برای حل مشکلات
+                شما تلاش کنم.&quot;
               </span>
             </Reveal>
           </div>
@@ -70,9 +73,15 @@ function Projects() {
         <div className="box">
           <div className="disc-of-box">
             <Reveal keyframes={bottomToTopAnimation}>
-              <p className="title">حمایت از ورزش پایه میتواند نقش مهمی در تربیت نسل اینده داشته باشد.</p>
-              <span>حمایت از ورزش، به ویژه ورزش پایه، از جمله وظایف مهم همه ارگان ها و سازمان های متولی است و باید در این زمینه تلاش شود تا استعدادهای ورزشی در استان شناسایی و پرورش یابند.</span>
-
+              <p className="title">
+                حمایت از ورزش پایه میتواند نقش مهمی در تربیت نسل اینده داشته
+                باشد.
+              </p>
+              <span>
+                حمایت از ورزش، به ویژه ورزش پایه، از جمله وظایف مهم همه ارگان ها
+                و سازمان های متولی است و باید در این زمینه تلاش شود تا
+                استعدادهای ورزشی در استان شناسایی و پرورش یابند.
+              </span>
             </Reveal>
           </div>
           <Image src={photo2} className="box-img" alt="#"></Image>
@@ -81,18 +90,32 @@ function Projects() {
           <Image src={photo5} className="box-img" alt="#"></Image>
           <div className="disc-of-box">
             <Reveal keyframes={bottomToTopAnimation}>
-              <p className="title">حمایت از تولید داخلی،کلید رونق اقتصادی است.</p>
-              <span>دکتر آجودان‌زاده در این بازدید، ضمن تقدیر از تلاش‌های مدیران و کارکنان کارخانه صنایع رنگ اطلس فام سهند، بر لزوم حمایت از تولید داخلی تاکید کرد و گفت: "حمایت از تولید داخلی، کلید رونق اقتصادی کشور و ایجاد اشتغال برای جوانان است."
+              <p className="title">
+                حمایت از تولید داخلی،کلید رونق اقتصادی است.
+              </p>
+              <span>
+                دکتر آجودان‌زاده در این بازدید، ضمن تقدیر از تلاش‌های مدیران و
+                کارکنان کارخانه صنایع رنگ اطلس فام سهند، بر لزوم حمایت از تولید
+                داخلی تاکید کرد و گفت: &quot;حمایت از تولید داخلی، کلید رونق
+                اقتصادی کشور و ایجاد اشتغال برای جوانان است.&quot;
               </span>
-
             </Reveal>
           </div>
         </div>
         <div className="box">
           <div className="disc-of-box">
             <Reveal keyframes={bottomToTopAnimation}>
-              <p className="title">وظیفه ی نماینده مجلس  قانون گذاری برای مردم است،نه بر علیه مردم!</p>
-              <span>ما نمایندگان موظفیم قوانینی وضع کنیم که زندگی مردم را بهتر کند، نه اینکه قوانینی وضع کنیم که زندگی آنها را سخت‌تر کند"، تاکید کرد: "من به عنوان نماینده اینده شما در مجلس شورای اسلامی، بر خودم وظیفه می دانم که با تمام توان برای تسهیل زندگی مردم از طریق وضع قوانین تسهیل گر و مخالفت با قوانین دست و پا گیر اقدام کنم</span>
+              <p className="title">
+                وظیفه ی نماینده مجلس قانون گذاری برای مردم است،نه بر علیه مردم!
+              </p>
+              <span>
+                ما نمایندگان موظفیم قوانینی وضع کنیم که زندگی مردم را بهتر کند،
+                نه اینکه قوانینی وضع کنیم که زندگی آنها را سخت‌تر کند&quot;،
+                تاکید کرد: &quot;من به عنوان نماینده آینده شما در مجلس شورای
+                اسلامی، بر خودم وظیفه می‌دانم که با تمام توان برای تسهیل زندگی
+                مردم از طریق وضع قوانین تسهیل‌گر و مخالفت با قوانین دست‌وپاگیر
+                اقدام کنم&quot;
+              </span>
             </Reveal>
           </div>
           <Image src={photo4} className="box-img" alt="#"></Image>
