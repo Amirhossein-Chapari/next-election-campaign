@@ -1,0 +1,115 @@
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+
+.box-img {
+  width: 30% !important;
+  height: 30%;
+  box-shadow: 0 10px 15px -5px #9d00ff, 0 4px 6px -20px #9d00ff;
+  border-radius: 0.5rem;
+}
+
+@font-face {
+  font-family: 'Far_Diplomat';
+  src: url(../../../public/Far_Diplomat/Far_Diplomat.ttf);
+}
+
+@font-face {
+  font-family: 'IranNastaliq';
+  src: url(../../../public/IranNastaliq&Help-fontyab.com/IranNastaliq.ttf);
+}
+
+
+@media screen and (max-width: 1350px) {
+  .disc-of-box {
+    font-size: 20px !important;
+  }
+
+  .title {
+    font-size: 25px !important;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .disc-of-box {
+    text-align: center;
+    width: 100% !important;
+  }
+
+  .box-img {
+    width: 50% !important;
+    height: 50% !important;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center !important;
+    line-height: 30px !important;
+    margin-bottom: 20px;
+    font-size: 22px !important;
+    
+  }
+
+
+  .porj-h1 {
+    margin-top: -100px !important;
+    margin-bottom: 50px !important;
+    font-size: 30px !important;
+  }
+
+  .group > .box:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .group {
+    gap: 90px !important;
+  }
+  
+
+  // .group:nth-child(odd) {
+  //   flex-direction: column;
+  // }
+}
+
+
+.disc-of-box {
+  font-family: 'Far_Diplomat' !important;
+
+  font-size: 25px;
+  color: #8892b0;
+  width: 50%;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 50px;
+  color: #9d00ff;
+}
+
+.porj-h1 {
+  font-family: 'IranNastaliq' !important;
+
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  line-height: 70px;
+  color: #fff;
+  margin-top: -200px;
+  margin-bottom: 100px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}

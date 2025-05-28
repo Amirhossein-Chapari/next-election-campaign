@@ -1,0 +1,64 @@
+
+
+@font-face {
+  font-family: 'Far_Diplomat';
+  src: url(../../../public/Far_Diplomat/Far_Diplomat.ttf);
+}
+
+@font-face {
+  font-family: 'IranNastaliq';
+  src: url(../../../public/IranNastaliq&Help-fontyab.com/IranNastaliq.ttf);
+}
+
+
+
+.contact {
+  max-width: 700px;
+  margin: 15rem auto 5rem auto;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .contact-title {
+    font-family: 'Far_Diplomat' !important;
+
+    color: var(--theme-color);
+    font-size: 30px;
+    font-family: var(--fira-code);
+    font-weight: 300;
+    // &::before {
+    //   counter-increment: title;
+    //   content: "0" counter(title) ".";
+    //   margin-right: 0.5rem;
+    //   color: var(--theme-color);
+    // }
+  }
+  .contact-sub-title {
+    font-family: 'IranNastaliq' !important;
+    line-height: 120px;
+    font-size: var(--tgiant);
+    font-family: var(--raleway);
+    color: var(--light-slate);
+  }
+  .contact-text {
+    font-family: 'Far_Diplomat' !important;
+    color: var(--slate);
+    font-size: var(--tlarge);
+    letter-spacing: 0.07rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    font-family: var(--raleway);
+    text-align: center;
+    
+  }
+  .contact-cta {
+    font-family: 'Far_Diplomat' !important;
+    margin-top: 1rem;
+    .btn {
+      font-size: 20px;
+      padding: 1rem 2rem;
+      font-weight: bold;
+    }
+  }
+}

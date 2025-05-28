@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'IranNastaliq';
+  src: url(../../../public/IranNastaliq&Help-fontyab.com/IranNastaliq.ttf);
+
+}
+
+
+@font-face {
+  font-family: 'Far_Diplomat';
+  src: url(../../../public/Far_Diplomat/Far_Diplomat.ttf);
+}
+
+
+.header-bg-main {
+  position: absolute;
+  background-image: url(../../../public/photo9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  // height: 100vh;
+  z-index: 0;
+}
+
+.header-bg-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #0a192fc5;
+}
+
+@media screen and (max-width: 680px) {
+  .header-bg-main {
+    background-image: url(../../../public/photo8.jpg) !important;
+    width: 100%;
+    // position: fixed !important;
+  }
+
+}
+
+
+.hero {
+  position: relative;
+  margin: 1rem 5rem;
+  height: 100vh;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  justify-content: center;
+  min-height: 60vh;
+
+  &-title {
+    color: var(--theme-color);
+    font-size: var(--tsm2);
+    font-family: var(--fira-code);
+    line-height: 100px;
+  }
+
+  &-title-large {
+    font-size: var(--tgiant);
+    // font-family: 20px !important;
+    line-height: 110px;
+    color: var(--light-slate);
+    font-family: 'IranNastaliq' !important;
+  }
+
+  &-title-sub {
+    color: var(--lightest-slate);
+  }
+
+  &-text {
+    font-family: 'Far_Diplomat' !important;
+    color: var(--slate);
+    font-size: var(--tlarge);
+    letter-spacing: 0.07rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+    font-family: var(--raleway);
+  }
+
+  &-button {
+    margin-top: 2rem;
+
+    .btn {
+      padding: 1rem 2rem;
+      font-size: var(--tsm1);
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    &-text {
+      width: 100%;
+    }
+
+    &-title {
+      line-height: 80px;
+    }
+
+    &-title-large {
+      // font-size: 100px !important;
+      line-height: 100px;
+
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    &-title {
+      line-height: 80px;
+    }
+
+    &-title-large {
+      font-size: 50px !important;
+      line-height: 50px;
+
+    }
+
+    &-title-sub {
+      font-size: 30px !important;
+
+    }
+  }
+
+
+
+}
+
+p {
+  text-align: start !important;
+}
