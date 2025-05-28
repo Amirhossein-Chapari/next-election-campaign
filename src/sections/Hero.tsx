@@ -53,10 +53,7 @@ function Hero() {
             delay: 1.35,
           }}
         >
-          {/* <p>مدیرکل امور خیرین ،موسسات خیریه بیمارستانی
-            ومشارکتهای مردمی دانشگاه علوم پزشکی تبریز
-            ‎مدیر عامل موسسه خیریه مرکزآموزشی، درمانی و تحقیقاتی امام رضا(ع)</p> */}
-          <Link href="https://rapidops.com" target="_blank" className="link">
+          <Link href="" target="_blank" className="link">
           </Link>
         </motion.p>
         <motion.div
@@ -69,10 +66,6 @@ function Hero() {
             delay: 1.65,
           }}
         >
-          {/* <Button
-            text="Check out my course"
-            link="https://youtube.com/kishansheth21"
-          /> */}
         </motion.div>
       </div>
     </div>

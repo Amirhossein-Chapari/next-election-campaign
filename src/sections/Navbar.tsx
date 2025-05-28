@@ -1,5 +1,3 @@
-import Button from "@/components/Button";
-import Logo from "@/components/Logo";
 import Link from "next/link";
 import Image from 'next/image';
 import flag from '../../public/IR-Iran-Flag-icon.png';
